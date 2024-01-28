@@ -29,9 +29,9 @@ brew "diff-so-fancy"
 # Clean Docker containers, images, networks, and volumes
 brew "docker-clean"
 # Programming language for highly scalable real-time systems
-brew "erlang"
+# brew "erlang"
 # Functional metaprogramming aware language built on Erlang VM
-brew "elixir"
+# brew "elixir"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Command-line fuzzy finder written in Go
@@ -83,9 +83,9 @@ brew "nano"
 # HTTP/2 C Library
 brew "nghttp2"
 # Platform built on V8 to build network applications
-brew "node"
+# brew "node"
 # Manage multiple Node.js versions
-brew "nvm"
+# brew "nvm"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Pinentry for GPG on Mac
@@ -97,13 +97,13 @@ brew "pipx"
 # Python version management
 brew "pyenv"
 # Install various Ruby versions and implementations
-brew "ruby-build"
+# brew "ruby-build"
 # Ruby version manager
-brew "rbenv"
+# brew "rbenv"
 # Powerful, clean, object-oriented scripting language
-brew "ruby"
+# brew "ruby"
 # Rust toolchain installer
-brew "rustup-init"
+# brew "rustup-init"
 # Intuitive find & replace CLI
 brew "sd"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -125,7 +125,7 @@ brew "zplug"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Voice and text chat software
-cask "discord"
+# cask "discord"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Control your Elgato key lights
@@ -156,7 +156,7 @@ cask "rectangle"
 # Quicklook extension for source files
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security
-cask "telegram"
+# cask "telegram"
 # Unpacks archive files
 cask "the-unarchiver"
 # Open-source code editor
@@ -165,14 +165,15 @@ cask "visual-studio-code"
 cask "yandex-music-unofficial"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Cleaner-App", id: 1013897218
-mas "Enpass", id: 732710998
-mas "HazeOver", id: 430798174
+# mas "Cleaner-App", id: 1013897218
+# mas "Enpass", id: 732710998
+# mas "HazeOver", id: 430798174
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
+mas "Telegram", id: 747648890
 vscode "alexdima.copy-relative-path"
 vscode "EditorConfig.EditorConfig"
 vscode "ms-python.python"
