@@ -36,3 +36,8 @@ _fzf_compgen_path() {
 # https://github.com/rupa/z
 
 source "$(brew --prefix)/opt/z/etc/profile.d/z.sh"
+
+# === RANCHER DESKTOP ===
+if [[ -d "$HOME/.rd/bin" ]]; then
+  export PATH="$PATH:$HOME/.rd/bin"
+fi
